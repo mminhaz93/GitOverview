@@ -55,4 +55,7 @@ git push
 ### .gitignore
 - Add any file you will not want to push to git 
 
+### Merge changes from Branch to Branch 
+- You will need to create a pull request
+
 

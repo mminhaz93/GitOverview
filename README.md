@@ -19,7 +19,7 @@ git pull origin BranchName - pulls the latest code of  certain branch
 
 git fetch - pulls the latest branches from git
 
-** git reset --hard HEAD - don't use unless you want to discard all your current changes
+
 
 git status - shows the status of git changes
 
@@ -28,6 +28,8 @@ git add . - will all the files with new changes
 git commit -m "commit message" - gets ready to commit changes with message
 
 git push - pushes the changes
+
+** git reset --hard HEAD - don't use unless you want to discard all your current changes (tracked files)
 
 git clean -df - will remove all changed files 
           -d: Remove untracked directories in addition to untracked files
@@ -52,6 +54,5 @@ git push
 
 ### .gitignore
 - Add any file you will not want to push to git 
-
 
 

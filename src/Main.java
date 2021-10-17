@@ -138,20 +138,37 @@ public class Main {
 
         result = str2.compareTo( str3 );
         System.out.println(result);
+        // StringLength
+        String Str1 = new String("Welcome to Tutorialspoint.com");
+        String Str2 = new String("Tutorials" );
+
+        System.out.print("String Length :" );
+        System.out.println(Str1.length());
+
+        System.out.print("String Length :" );
+        System.out.println(Str2.length());
+        // String to String
+        String Str = new String("Welcome to Tutorialspoint.com");
+
+        System.out.print("Return Value :");
+        System.out.println(Str.toString());
+        //StringIndex
+
+        System.out.print("Found Index :" );
+        System.out.println(Str.indexOf( 'o' ));
+        //StringStartsWith
 
 
+        System.out.print("Return Value :" );
+        System.out.println(Str.startsWith("Welcome") );
+
+        System.out.print("Return Value :" );
+        System.out.println(Str.startsWith("Tutorials") );
+        // stringtoLowerCase
 
 
-
-
-
-
-
-
-
-
-
-
+        System.out.print("Return Value :");
+        System.out.println(Str.toLowerCase());
 
 
 

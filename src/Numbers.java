@@ -1,7 +1,7 @@
 public class Numbers {
     public static void main(String[] args) {
 
-
+       // Random
         int min = 5;
         int max = 10;
 
@@ -9,7 +9,7 @@ public class Numbers {
             int getRandomValue = (int) (Math.random() * (max - min+1)) + min;
             System.out.println(getRandomValue);
 
-
+     // swapping example
         int o = 30;
         int p = 45;
         System.out.println("Before swapping, o = " + o + " and p = " + p);
@@ -46,7 +46,7 @@ public class Numbers {
         System.out.println("Minimum Value = " + result2);
     }
 
-
+     //minfunation
     public static int minFunction(int n1, int n2) {
         int min;
         if (n1 > n2)

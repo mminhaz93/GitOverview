@@ -9,7 +9,7 @@ public class Random {
         System.out.println(c.equals(r));
         System.out.println(c.equals(l));
 
-
+//MinNumber
         int a = 11;
         int b = 6;
         int d = minFunction(a, b);

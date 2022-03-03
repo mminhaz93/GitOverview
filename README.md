@@ -6,7 +6,7 @@
 ### Basic commands
 ```
 git branch - show what branch you are on 
-            - to exist after running this command : shift + : -> wq
+            - to exist after running this command shift + : -> wq
 
 git checkout BranchName - will switch to new branch
             
@@ -19,11 +19,9 @@ git pull origin BranchName - pulls the latest code of  certain branch
 
 git fetch - pulls the latest branches from git
 
-
-
 git status - shows the status of git changes
 
-git add . - will all the files with new changes
+git add . - will add all the files with new changes
 
 git commit -m "commit message" - gets ready to commit changes with message
 

@@ -77,3 +77,9 @@ fabric.properties
 .DS_Store
 
 logs/
+
+.env
+
+.password
+
+src/DoNotPush.java
